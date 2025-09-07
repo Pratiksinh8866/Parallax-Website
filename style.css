@@ -1,0 +1,101 @@
+html,
+body{
+    /* height: 100%; */
+    /* width: 100%; */
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQHFwgjeabD_6OG1PZNtGguFaUcYT9L5wRTHyccjHSqGSC6F5JDgz7QP8flSwIJQ1-tBA&usqp=CAU);
+    background-size: cover;        
+    background-position: center;    
+    background-repeat: no-repeat;  
+    position: relative;
+    height: 100vh;                  
+    width: 100%;                    
+}
+
+.pimg2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJb4lVpljpO9j75N7DsVlcRC57RrjL3pcil5mbL27vRnQvBn6FAvuUlmvzF2EzKI1sUg&usqp=CAU);
+}
+.pimg3{
+    background-image: url(https://i.pinimg.com/236x/21/14/0f/21140f254920548593d92c3644b5897f.jpg);
+}
+.pimg2 , .pimg3{
+    background-size: cover;        
+    background-position: center;    
+    background-repeat: no-repeat;  
+    position: relative;
+    height: 100vh;                  
+    width: 100%;       
+} 
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background-color:black;
+    color: white;
+    padding: 15px;
+}
+
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+background-color: #282e34;
+color: #ddd;
+}
+
+@media (max-width: 768px) {
+    .ptext {
+        font-size: 18px;
+        letter-spacing: 3px;
+        padding: 0 10px;
+    }
+
+    .textbg {
+        padding: 10px 15px;
+    }
+
+    .section {
+        padding: 30px 20px;
+    }
+
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+        background-attachment: scroll; /* Fixes jittering on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .ptext {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .textbg {
+        padding: 8px 10px;
+    }
+}
